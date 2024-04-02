@@ -40,7 +40,7 @@ BaselineOfXMLParserHTML >> xmlParserOn: spec [
       with: [ 
 			spec
 				loads: #('Core');
-				repository: 'github://pharo-contributions/XML-XMLParser:3.5.x/src' ]. 
+				repository: 'github://pharo-contributions/XML-XMLParser:master/src' ]. 
 				
 	spec 
 		project: 'XMLParser Tests' copyFrom: 'XMLParser' with: [ spec loads: #('Tests') ]; 	
